@@ -1,0 +1,17 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Backend
+backend/target/
+
+# Python
+ai-service/.venv/
+ai-service/__pycache__/
+
+# IDE
+.vscode/
+.idea/
+
+# Env
+*.env
