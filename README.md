@@ -38,6 +38,7 @@ CREATE DATABASE travel_planner;
 ```
 
 Set DB and JWT values via environment variables before starting backend.
+Use `backend/.env.example` as the template for your local `.env` file.
 
 PowerShell:
 
@@ -47,6 +48,8 @@ $env:DB_USERNAME="postgres"
 $env:DB_PASSWORD="<your_db_password>"
 $env:JWT_SECRET="<base64_256bit_secret>"
 ```
+
+Never commit real secrets to git. Keep keys only in local environment variables or your deployment secret manager.
 
 ## 2) Configure Gemini API
 
